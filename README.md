@@ -2,9 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Nodes](https://img.shields.io/badge/Nodes-Daily%20Update-blue)
-![License](https://img.shields.io/badge/License-Anti%20Censorship-red)
-
----
+![License](https://img.shields.io/badge/License-The%20Unlicense-red)
 
 > **“没有无法跨越的防火墙，只有尚未发现的节点。**
 > **当访问被阻断，我们即成为桥梁。**
