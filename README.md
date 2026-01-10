@@ -35,7 +35,7 @@
 
 | 线路类型 | 订阅链接 (点击复制) | 状态 |
 | :--- | :--- | :--- |
-| **🚀 主线路 (推荐)** | `https://mirror.ghproxy.com/https://raw.githubusercontent.com/RYSF13/project-wallbreaker/main/subscribe/v2ray.txt` | ✅ **稳定/实时** |
+| **🚀 主线路 (推荐)** | `https://gh-proxy.org/https://raw.githubusercontent.com/RYSF13/project-wallbreaker/main/subscribe/v2ray.txt` | ✅ **稳定/实时** |
 | **☁️ CDN 线路1** | `https://cdn.jsdelivr.net/gh/RYSF13/project-wallbreaker@main/subscribe/v2ray.txt` | ⚠️ **有缓存**，更新略有延迟 |
 | **🔄 备用线路 1** | `https://ghproxy.net/https://raw.githubusercontent.com/RYSF13/project-wallbreaker/main/subscribe/v2ray.txt` | ✅ **备用** |
 | **🐌 原始线路** | `https://raw.githubusercontent.com/RYSF13/project-wallbreaker/main/subscribe/v2ray.txt` | ❌ **国内需翻墙访问** |
