@@ -13,7 +13,7 @@ INPUT_FILE = '../subscribe/v2ray.txt'
 # 输出文件路径 (覆盖原文件)
 OUTPUT_FILE = '../subscribe/v2ray.txt'
 # 测速超时时间 (秒)，超过这个时间连不上算超时
-TIMEOUT = 2
+TIMEOUT = 4
 # 并发线程数 (越高越快，但太高容易报错，推荐 50-100)
 MAX_WORKERS = 50
 # 是否输出 Base64 编码 (True: 输出一长串乱码供订阅; False: 输出明文一行一个)
@@ -141,12 +141,14 @@ def main():
         for link, is_valid, latency in results:
             if is_valid:
                 valid_nodes.append(link)
-                if latency == -1:
+            """
+            if latency == -1:
                     print(f"⚠️ 无法解析: {link[:30]}... (已保留)")
                 else:
                     print(f"✅ 存活: {latency}ms")
             else:
                 print(f"❌ 死亡: {link[:30]}... (已剔除)")
+            """
 
     print(f"📊 最终可用节点数: {len(valid_nodes)}")
 
